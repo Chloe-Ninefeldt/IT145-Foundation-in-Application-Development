@@ -9,7 +9,7 @@ public users(String user, String pass){
 }
 
 public boolean auth(){
-    if((username == accounts[0][0]) && (password == accounts[0][1]))
+    if((username.equals(accounts[0][0])) && (password.equals(accounts[0][1])))
         return true;
     else
         return false;
